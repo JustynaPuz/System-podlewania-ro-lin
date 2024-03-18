@@ -1,4 +1,4 @@
 # System Podlewania roślin
 
-Opis projektu
+Opis projektu \
 Na podstawie danych z czujnika wilgotności, który jest umieszczony w glebie, mikrokontroler analizuje odczyt i na jego podstawie decyduję o uruchomieniu systemu podlewania. Gdy roślina musi zostać podlana, mikrokontroler wysyła sygnał do przekaźnika, który uruchamia pompkę wodną. Przez rurkę woda jest doprowadzana do gleby. System wyłącza pompkę, gdy odczyt z czujnika wilgotności będzie powyżej poziomu minimalnego. Projekt w celu lepszego dopasowania do potrzeb rośliny posiada 3 różne poziomy wilgotności (Wysoki, średni, niski), które są ustawiane za pomocą przycisku. Informacje o wybranym trybie i o aktualnej wilgotności gleby wyświetlane są na wyświetlaczu LCD. Przy pomocy terminala możemy skalibrować czujniki. System posiada również system alarmowy, który załącza się w wypadku wykrycia awarii. 
